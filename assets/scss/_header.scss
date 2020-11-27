@@ -1,0 +1,17 @@
+@import "mixin";
+.header {
+  @include flex(flex, 0, center);
+  height: 4em;
+  padding-left: $primary-margin;
+  padding-top: $secondary-margin;
+  padding-bottom: $secondary-margin;
+  background-color: $bg-color-primary;
+  border-bottom: 2px solid $primary-color;
+  img {
+    @include img-size(50px, 50px);
+    padding-right: $secondary-margin;
+  }
+  h1 {
+    font-size: 36px;
+  }
+}

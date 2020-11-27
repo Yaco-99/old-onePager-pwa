@@ -1,0 +1,26 @@
+.footer {
+    @include flex(flex, space-around, 0);
+    background-color: $primary-color;
+    padding: 1%;
+    color: $secondary-text-color;
+  }
+
+  .second{
+    padding-left: 1%;
+    border-left: 1px solid $secondary-text-color;
+      p, h3{
+        margin: 0;
+        line-height: 150%;
+      }
+      p{
+        font-size: 12px;
+      }
+      a{
+        color: $secondary-text-color;
+        text-decoration: none;
+      }
+      svg{
+        width: 3%;
+        height: 3%;
+      }
+  }

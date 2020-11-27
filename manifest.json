@@ -1,0 +1,30 @@
+{
+  "name": "one-pager-pwa",
+  "short_name": "one-pager-pwa",
+  "start_url": ".",
+  "background_color": "#ff0000",
+  "theme_color": "#dfdfdf",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/img/redCross.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/blood.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/donation.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/Engage.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ]
+}
